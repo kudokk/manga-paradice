@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <native_template_element native_template_id="1" native_element_id="1" max_length="10" width="20" height="30"
+    font_size="40" font_color="[TEXT]文字色1_1" trim_type="dot" view_type="minify" required_flag="required"
+    update_time="2024-02-01 00:00:00" create_time="2024-01-01 00:00:00"/>
+  <native_template_element native_template_id="1" native_element_id="2" trim_type="chunk" view_type="minify"
+    required_flag="required" update_time="2024-02-02 00:00:00" create_time="2024-01-02 00:00:00"/>
+  <native_template_element native_template_id="1" native_element_id="3" height="32" font_size="42"
+    font_color="[TEXT]文字色1_3" trim_type="dot" view_type="cut" required_flag="required"
+    update_time="2024-02-03 00:00:00" create_time="2024-01-03 00:00:00"/>
+  <native_template_element native_template_id="2" native_element_id="1" max_length="14" width="24" trim_type="chunk"
+    view_type="cut" required_flag="optional" update_time="2024-02-04 00:00:00" create_time="2024-01-04 00:00:00"/>
+  <native_template_element native_template_id="2" native_element_id="2" max_length="15" font_color="[TEXT]文字色2_2"
+    trim_type="dot" view_type="minify" required_flag="optional" update_time="2024-02-05 00:00:00"
+    create_time="2024-01-05 00:00:00"/>
+  <native_template_element native_template_id="3" native_element_id="1" max_length="16" width="26" height="36"
+    font_size="46" font_color="[TEXT]文字色2_3" trim_type="chunk" view_type="minify" required_flag="optional"
+    update_time="2024-02-06 00:00:00" create_time="2024-01-06 00:00:00"/>
+</dataset>

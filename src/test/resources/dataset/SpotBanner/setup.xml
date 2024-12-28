@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+    <spot_banner spot_id="1" rotation_interval="1" update_time="2023-01-01 00:00:00" create_time="2023-01-01 00:00:00" />
+    <spot_banner spot_id="2" rotation_interval="2" update_time="2023-01-02 00:00:00" create_time="2023-01-02 00:00:00" />
+    <spot_banner spot_id="3" rotation_interval="3" update_time="2023-01-03 00:00:00" create_time="2023-01-03 00:00:00" />
+</dataset>

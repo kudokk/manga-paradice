@@ -1,0 +1,11 @@
+<amp-ad ${sizeOfSpot}
+  type="mangaka"
+  data-spot="${encryptedSpotId}"
+#if(${isAllowedMacroUrl})
+  data-url="${COMPASS_EXT_URL}"
+  data-referrer="${COMPASS_EXT_REF}"
+#end
+  data-ifa="${COMPASS_EXT_IFA}"
+  data-appid="${COMPASS_EXT_APPID}"
+  data-geo="${COMPASS_EXT_GEO}">
+</amp-ad>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <reserve_total_limit_impression total_sequence="1" start_date="2024-01-01" end_date="2024-02-01"
+    total_limit_impression="100" struct_id="1"/>
+  <reserve_total_limit_impression total_sequence="2" start_date="2024-01-02" end_date="2024-02-02"
+    total_limit_impression="200" struct_id="1"/>
+  <reserve_total_limit_impression total_sequence="3" start_date="2024-01-03" total_limit_impression="300"
+    struct_id="1"/>
+  <reserve_total_limit_impression total_sequence="4" start_date="2024-01-04" end_date="2024-02-04"
+    total_limit_impression="400" struct_id="2"/>
+  <reserve_total_limit_impression total_sequence="5" start_date="2024-01-05" total_limit_impression="500"
+    struct_id="2"/>
+  <reserve_total_limit_impression total_sequence="6" start_date="2024-01-06" end_date="2024-02-06"
+    total_limit_impression="600" struct_id="3"/>
+</dataset>

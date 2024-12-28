@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <spot_upstream_currency spot_id="1" currency_id="10"/>
+  <spot_upstream_currency spot_id="2" currency_id="11"/>
+</dataset>

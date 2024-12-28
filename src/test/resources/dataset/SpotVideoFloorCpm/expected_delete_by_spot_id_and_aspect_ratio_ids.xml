@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <spot_video_floor_cpm spot_id="1" aspect_ratio_id="3" start_date="2024-03-01" end_date="2024-12-01"
+    floor_cpm="345.678"/>
+  <spot_video_floor_cpm spot_id="2" aspect_ratio_id="1" start_date="2024-04-01" end_date="2025-01-01"
+    floor_cpm="456.789"/>
+</dataset>

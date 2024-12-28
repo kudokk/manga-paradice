@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <dsp_master dsp_id="1" dsp_name="[TEXT]DSP1" default_protocol_version="0" default_endpoint="_" max_qps="0"
+    qps_control_id="0" timeout_ms="0" encryption_key="_" integrity_key="_"/>
+  <dsp_master dsp_id="2" dsp_name="[TEXT]DSP2" default_protocol_version="0" default_endpoint="_" max_qps="0"
+    qps_control_id="0" timeout_ms="0" encryption_key="_" integrity_key="_"/>
+  <dsp_master dsp_id="3" dsp_name="[TEXT]DSP3" default_protocol_version="0" default_endpoint="_" max_qps="0"
+    qps_control_id="0" timeout_ms="0" encryption_key="_" integrity_key="_"/>
+  <!-- reqgroupにこのDSPのレコードが存在しない -->
+  <dsp_master dsp_id="98" dsp_name="[TEXT]DSP4" default_protocol_version="0" default_endpoint="_" max_qps="0"
+    qps_control_id="0" timeout_ms="0" encryption_key="_" integrity_key="_"/>
+  <!-- reqgroup_status <> active -->
+  <dsp_master dsp_id="99" dsp_name="[TEXT]DSP5" default_protocol_version="0" default_endpoint="_" max_qps="0"
+    qps_control_id="0" timeout_ms="0" encryption_key="_" integrity_key="_"/>
+
+  <reqgroup dsp_id="1" reqgroup_status="active" reqgroup_name="_" protocol_version="0" endpoint="_"
+    audience_type="all" qps_control_id="1"/>
+  <reqgroup dsp_id="2" reqgroup_status="active" reqgroup_name="_" protocol_version="0" endpoint="_"
+    audience_type="all" qps_control_id="1"/>
+  <reqgroup dsp_id="3" reqgroup_status="active" reqgroup_name="_" protocol_version="0" endpoint="_"
+    audience_type="all" qps_control_id="1"/>
+  <reqgroup dsp_id="99" reqgroup_status="stop" reqgroup_name="_" protocol_version="0" endpoint="_"
+    audience_type="all" qps_control_id="1"/>
+</dataset>

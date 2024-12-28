@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <spot_banner_display spot_id="1" position_top="11" position_bottom="21" position_left="31" position_right="41"
+    is_scalable="true" is_display_scrolling="false" decoration_id="51" close_button_type="61" close_button_size="71"
+    close_button_line_color="line1" close_button_bg_color="bg1" close_button_frame_color="frame1"
+    is_scroll_end_control="true" is_allowed_drag="true" is_rounded_rectangle="true" pr_label_type="1"/>
+  <spot_banner_display spot_id="2" position_top="12" position_bottom="22" position_left="32" position_right="42"
+    is_scalable="false" is_display_scrolling="true" decoration_id="52" close_button_type="62" close_button_size="72"
+    close_button_line_color="line2" close_button_bg_color="bg2" close_button_frame_color="frame2"
+    is_scroll_end_control="true" is_allowed_drag="true" is_rounded_rectangle="true" pr_label_type="1"/>
+  <spot_banner_display spot_id="3" is_scalable="true" is_display_scrolling="false" is_scroll_end_control="true"
+    is_allowed_drag="true" is_rounded_rectangle="true" pr_label_type="1"/>
+</dataset>

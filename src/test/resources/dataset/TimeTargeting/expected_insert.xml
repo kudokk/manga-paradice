@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <time_targeting co_account_id="10" time_targeting_name="timeTargeting1"
+    time_targeting_status="active" country_id="20" is_active_holiday="true" description="desc1"/>
+  <time_targeting co_account_id="10" time_targeting_name="timeTargeting2"
+    time_targeting_status="archive" country_id="20" is_active_holiday="false"/>
+
+  <!-- 新規レコード -->
+  <time_targeting co_account_id="10" time_targeting_name="timeTargeting3"
+    time_targeting_status="active" country_id="20" is_active_holiday="true" description="desc3"/>
+  <time_targeting co_account_id="11" time_targeting_name="timeTargeting4"
+    time_targeting_status="active" country_id="21" is_active_holiday="false"/>
+</dataset>

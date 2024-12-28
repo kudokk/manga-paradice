@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <spot_video spot_id="2" duration_min="00:00:02" duration_max="00:00:02" is_fixed_rotation_aspect_ratio="false"/>
+  <spot_video spot_id="3" duration_min="00:00:03" duration_max="00:00:03" is_fixed_rotation_aspect_ratio="true"/>
+</dataset>

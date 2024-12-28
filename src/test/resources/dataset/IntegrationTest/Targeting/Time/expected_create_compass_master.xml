@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <compass_struct struct_id="1" delivery_type="ratio" time_targeting_id="2"/>
+  <compass_struct struct_id="2" delivery_type="ratio" time_targeting_id="2"/>
+  <compass_struct struct_id="3" delivery_type="ratio" time_targeting_id="1"/>
+  <compass_struct struct_id="4" delivery_type="ratio" time_targeting_id="1"/>
+
+  <time_targeting time_targeting_id="1" co_account_id="20" time_targeting_name="targeting1" time_targeting_status="active" country_id="1" is_active_holiday="false" description="desc1"/>
+  <time_targeting_day_type_period time_targeting_id="1" day_type="mon" start_time="00:00:00" end_time="23:59:00"/>
+  <time_targeting_day_type_period time_targeting_id="1" day_type="tue" start_time="00:00:00" end_time="23:59:00"/>
+  <time_targeting_day_type_period time_targeting_id="1" day_type="wed" start_time="00:00:00" end_time="23:59:00"/>
+
+  <time_targeting time_targeting_id="2" co_account_id="20" time_targeting_name="作成テスト" time_targeting_status="active" country_id="2" is_active_holiday="true" description="タイムターゲティング作成"/>
+  <time_targeting_day_type_period time_targeting_id="2" day_type="mon" start_time="00:00:00" end_time="00:29:00"/>
+  <time_targeting_day_type_period time_targeting_id="2" day_type="tue" start_time="00:30:00" end_time="00:59:00"/>
+  <time_targeting_day_type_period time_targeting_id="2" day_type="wed" start_time="01:00:00" end_time="01:29:00"/>
+  <time_targeting_day_type_period time_targeting_id="2" day_type="thu" start_time="01:30:00" end_time="01:59:00"/>
+  <time_targeting_day_type_period time_targeting_id="2" day_type="fri" start_time="02:00:00" end_time="02:29:00"/>
+  <time_targeting_day_type_period time_targeting_id="2" day_type="sat" start_time="02:30:00" end_time="02:59:00"/>
+  <time_targeting_day_type_period time_targeting_id="2" day_type="sun" start_time="03:00:00" end_time="03:29:00"/>
+  <time_targeting_day_type_period time_targeting_id="2" day_type="hol" start_time="03:30:00" end_time="03:59:00"/>
+</dataset>

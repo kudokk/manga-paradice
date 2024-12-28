@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <spot_video_display spot_id="1" aspect_ratio_id="3" width="110" height="210" position_top="200" position_right="400"
+    is_scalable="true" is_scroll_end_control="true" is_display_scrolling="true" is_allowed_drag="false"
+    is_rounded_rectangle="true" is_allow_drag="false"/>
+  <spot_video_display spot_id="2" aspect_ratio_id="1" width="110" height="210" position_top="200" position_right="400"
+    is_scalable="true" is_scroll_end_control="true" is_display_scrolling="true" is_allowed_drag="false"
+    is_rounded_rectangle="true" is_allow_drag="false"/>
+</dataset>

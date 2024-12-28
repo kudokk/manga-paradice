@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <site site_id="1" co_account_id="1" site_name="[TEXT]サイト1" site_status="active" is_allowed_macro_url="true" platform_id="1" site_type="pc_web"
+    default_propriety_dsp_id="1" update_time="2023-01-01 00:00:00" site_category_id="99" url="[TEXT]_" payee_id="99"
+    default_anonymous="off"/>
+  <site site_id="2" co_account_id="2" site_name="[TEXT]サイト2" site_status="requested" is_allowed_macro_url="true" platform_id="1" site_type="sp_web"
+    default_propriety_dsp_id="2" update_time="2023-01-02 00:00:00" site_category_id="99" url="[TEXT]_" payee_id="99"
+    default_anonymous="off"/>
+  <site site_id="3" co_account_id="2" site_name="[TEXT]サイト3" site_status="ng" is_allowed_macro_url="false" platform_id="2" site_type="i_app"
+    default_propriety_dsp_id="3" update_time="2023-01-03 00:00:00" site_category_id="99" url="[TEXT]_" payee_id="99"
+    default_anonymous="off"/>
+  <site site_id="4" co_account_id="2" site_name="[TEXT]サイト4" site_status="archive" is_allowed_macro_url="false" platform_id="2" site_type="a_app"
+    default_propriety_dsp_id="1" update_time="2023-01-04 00:00:00" site_category_id="99" url="[TEXT]_" payee_id="99"
+    default_anonymous="off"/>
+</dataset>

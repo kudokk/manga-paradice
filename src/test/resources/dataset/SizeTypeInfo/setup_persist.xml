@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <size_type_info size_type_id="1" width="100" height="101" platform_id="1" definition_type="standard"
+    movie_definition_type="standard" companion_definition_type="standard"/>
+  <size_type_info size_type_id="2" width="200" height="201" platform_id="2" definition_type="userdefined"
+    movie_definition_type="userdefined" companion_definition_type="userdefined"/>
+</dataset>

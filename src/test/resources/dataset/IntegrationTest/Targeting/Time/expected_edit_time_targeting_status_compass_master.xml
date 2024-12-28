@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <time_targeting time_targeting_id="1" co_account_id="20" time_targeting_name="targeting1"
+    time_targeting_status="archive" country_id="1" is_active_holiday="false" description="desc1"/>
+</dataset>

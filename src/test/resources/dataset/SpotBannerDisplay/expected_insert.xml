@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <spot_banner_display spot_id="1" position_top="10" position_bottom="20" position_left="30" position_right="40"
+    is_scalable="true" is_scroll_end_control="true" is_display_scrolling="true" is_allowed_drag="true"
+    decoration_id="50" is_rounded_rectangle="true" close_button_target_os="ios" close_button_type="1"
+    close_button_size="10" close_button_line_color="_" close_button_bg_color="_" close_button_frame_color="_"
+    pr_label_type="1"/>
+  <spot_banner_display spot_id="5" is_scalable="false" is_display_scrolling="true" is_scroll_end_control="true"
+    is_allowed_drag="false" is_rounded_rectangle="false"/>
+
+  <!-- 新規レコード -->
+  <spot_banner_display spot_id="2" is_scalable="true" is_display_scrolling="true" is_scroll_end_control="true"
+    is_allowed_drag="false" is_rounded_rectangle="false"/>
+  <spot_banner_display spot_id="3" position_bottom="10" is_scalable="false" is_display_scrolling="false"
+    decoration_id="20" is_scroll_end_control="true" is_allowed_drag="false" is_rounded_rectangle="false"
+    close_button_type="30" close_button_size="40" close_button_line_color="line1" close_button_bg_color="bg1"
+    close_button_frame_color="frame1"/>
+  <spot_banner_display spot_id="4" position_bottom="11" is_scalable="false" is_display_scrolling="true"
+    decoration_id="21" is_scroll_end_control="true" is_allowed_drag="false" is_rounded_rectangle="false"
+    close_button_type="31" close_button_size="41" close_button_line_color="line2" close_button_bg_color="bg2"
+    close_button_frame_color="frame2"/>
+</dataset>

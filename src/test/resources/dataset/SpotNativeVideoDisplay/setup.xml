@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <spot_native_video_display spot_id="1" native_template_id="11" position_top="21" position_bottom="31"
+    position_left="41" position_right="51" close_button_type="61" close_button_size="71" close_button_line_color="line1"
+    close_button_bg_color="bg1" close_button_frame_color="frame1" is_scroll_end_control="true" is_allowed_drag="true"
+    is_rounded_rectangle="true" pr_label_type="1" is_scalable="true" is_display_scrolling="false" aspect_ratio_id="1"
+    player_width="10" player_height="20"/>
+  <spot_native_video_display spot_id="2" native_template_id="12" position_top="22" position_bottom="32"
+    position_left="42" position_right="52" close_button_type="62" close_button_size="72" close_button_line_color="line2"
+    close_button_bg_color="bg2" close_button_frame_color="frame2" is_scroll_end_control="true" is_allowed_drag="true"
+    is_rounded_rectangle="true" pr_label_type="1" is_scalable="false" is_display_scrolling="true" aspect_ratio_id="1"
+    player_width="10" player_height="20"/>
+  <spot_native_video_display spot_id="3" native_template_id="13" is_scroll_end_control="true" is_allowed_drag="true"
+    is_rounded_rectangle="true" pr_label_type="1" is_scalable="true" is_display_scrolling="false" aspect_ratio_id="1"
+    player_width="10" player_height="20"/>
+</dataset>

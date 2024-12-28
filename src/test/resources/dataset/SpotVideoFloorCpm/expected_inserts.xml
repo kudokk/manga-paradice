@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <spot_video_floor_cpm spot_id="1" aspect_ratio_id="1" start_date="2024-01-01" end_date="2024-10-01"
+    floor_cpm="123.456"/>
+  <spot_video_floor_cpm spot_id="1" aspect_ratio_id="1" start_date="2024-11-01" floor_cpm="999.999"/>
+  <spot_video_floor_cpm spot_id="1" aspect_ratio_id="2" start_date="2024-02-01" end_date="2024-11-01"
+    floor_cpm="234.567"/>
+  <spot_video_floor_cpm spot_id="1" aspect_ratio_id="3" start_date="2024-03-01" end_date="2024-12-01"
+    floor_cpm="345.678"/>
+  <spot_video_floor_cpm spot_id="2" aspect_ratio_id="1" start_date="2024-04-01" end_date="2025-01-01"
+    floor_cpm="456.789"/>
+  
+  <spot_video_floor_cpm spot_id="3" aspect_ratio_id="1" start_date="2024-08-20" floor_cpm="0.00000000"/>
+  <spot_video_floor_cpm spot_id="3" aspect_ratio_id="2" start_date="2024-08-20" floor_cpm="9999999999.99999999"/>
+  <spot_video_floor_cpm spot_id="4" aspect_ratio_id="2" start_date="2024-08-20" floor_cpm="12345.6789"/>
+</dataset>

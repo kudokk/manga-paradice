@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <decoration decoration_id="1" decoration_name="[TEXT]デコレーション1" co_account_id="0" band_height="10"
+    band_bgcolor="[TEXT]#FFFFFF" band_string="[TEXT]表示文字列1" band_font_color="[TEXT]#000000"/>
+  <decoration decoration_id="2" decoration_name="[TEXT]デコレーション2" co_account_id="1" band_height="20"
+    band_bgcolor="[TEXT]#EEEEEE" band_string="[TEXT]表示文字列2" band_font_color="[TEXT]#111111"/>
+  <decoration decoration_id="3" decoration_name="[TEXT]デコレーション3" co_account_id="1" band_height="30"
+    band_bgcolor="[TEXT]#DDDDDD" band_string="[TEXT]表示文字列3" band_font_color="[TEXT]#222222"/>
+  <decoration decoration_id="4" decoration_name="[TEXT]デコレーション4" co_account_id="2" band_height="30"
+    band_bgcolor="[TEXT]#CCCCCC" band_string="[TEXT]表示文字列4" band_font_color="[TEXT]#333333"/>
+</dataset>

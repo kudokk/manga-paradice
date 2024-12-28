@@ -1,0 +1,13 @@
+<div id="${encryptedSpotId}" ${widthHeightStr}>
+  <script type="text/javascript">
+    mangakaCompass.queue.push({
+#if(${isAllowedMacroUrl})
+      "spot": "${encryptedSpotId}",
+      "url": "${COMPASS_EXT_URL}",
+      "referrer": "${COMPASS_EXT_REF}"
+#else
+      "spot": "${encryptedSpotId}"
+#end
+    });
+  </script>
+</div>

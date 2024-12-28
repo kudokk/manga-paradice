@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <country_master country_id="1" name="[TEXT]name1" name_en="[TEXT]nameEn1" name_kr="[TEXT]nameKr1"
+    google_criteria_id="0" code_num="_" code_alpha2="_" code_alpha3="_" geo_id="0" time_difference="1.2"
+    compass_flag="0"/>
+  <country_master country_id="2" name="[TEXT]name2" name_en="[TEXT]nameEn2" name_kr="[TEXT]nameKr2"
+    google_criteria_id="0" code_num="_" code_alpha2="_" code_alpha3="_" geo_id="0" time_difference="2.3"
+    compass_flag="1"/>
+  <country_master country_id="3" name="[TEXT]name3" name_en="[TEXT]nameEn3" name_kr="[TEXT]nameKr3"
+    google_criteria_id="0" code_num="_" code_alpha2="_" code_alpha3="_" geo_id="0" time_difference="3.4"
+    compass_flag="0"/>
+</dataset>

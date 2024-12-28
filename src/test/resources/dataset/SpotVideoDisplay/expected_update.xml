@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <spot_video_display spot_id="1" aspect_ratio_id="1" width="500" height="600" 
+    is_scalable="true" is_scroll_end_control="true" is_display_scrolling="true" is_allowed_drag="false"
+    is_rounded_rectangle="true" decoration_id="1" is_allow_drag="false"/>
+  <spot_video_display spot_id="1" aspect_ratio_id="2" width="700" height="800" position_top="20" position_bottom="30"
+    position_left="40" position_right="50" is_scalable="true" is_scroll_end_control="true" is_display_scrolling="true"
+    is_allowed_drag="true" is_rounded_rectangle="false" close_button_type="3" close_button_size="60"
+    close_button_line_color="rgba25" close_button_bg_color="rgba26" close_button_frame_color="rgba27" 
+    pr_label_type="8" is_allow_drag="false"/>
+  <spot_video_display spot_id="1" aspect_ratio_id="3" width="110" height="210" position_top="200" position_right="400"
+    is_scalable="true" is_scroll_end_control="true" is_display_scrolling="true" is_allowed_drag="false"
+    is_rounded_rectangle="true" is_allow_drag="false"/>
+  <spot_video_display spot_id="2" aspect_ratio_id="1" width="110" height="210" position_top="200" position_right="400"
+    is_scalable="true" is_scroll_end_control="true" is_display_scrolling="true" is_allowed_drag="false"
+    is_rounded_rectangle="true" is_allow_drag="false"/>
+</dataset>

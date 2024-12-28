@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <spot_video_display spot_id="1" aspect_ratio_id="10" width="20" height="30" position_top="40" position_bottom="50"
+    position_left="60" position_right="70" is_scalable="true" is_allowed_drag="false" is_rounded_rectangle="true"
+    close_button_type="80" close_button_size="90" close_button_line_color="line1" close_button_bg_color="bg1"
+    close_button_frame_color="frame1" pr_label_type="100" is_scroll_end_control="true" is_display_scrolling="true"
+    is_allow_drag="true"/>
+  <spot_video_display spot_id="1" aspect_ratio_id="11" width="21" height="31" position_top="41" position_bottom="51"
+    position_left="61" position_right="71" is_scalable="false" is_allowed_drag="true" is_rounded_rectangle="false"
+    close_button_type="81" close_button_size="91" close_button_line_color="line2" close_button_bg_color="bg2"
+    close_button_frame_color="frame2" pr_label_type="101" is_scroll_end_control="true" is_display_scrolling="true"
+    is_allow_drag="true"/>
+  <spot_video_display spot_id="1" aspect_ratio_id="12" width="22" height="32" is_scalable="true" is_allowed_drag="false"
+    is_rounded_rectangle="false" is_scroll_end_control="true" is_display_scrolling="true" is_allow_drag="true"/>
+  <spot_video_display spot_id="2" aspect_ratio_id="10" width="23" height="33" is_scalable="true"
+    is_allowed_drag="false" is_rounded_rectangle="false" is_scroll_end_control="false" is_display_scrolling="true"
+    is_allow_drag="false"/>
+  <spot_video_display spot_id="2" aspect_ratio_id="11" width="24" height="34" position_top="44" position_bottom="54"
+    position_left="64" position_right="74" is_scalable="true" is_allowed_drag="false" is_rounded_rectangle="false"
+    close_button_type="84" close_button_size="94" close_button_line_color="line4" close_button_bg_color="bg4"
+    close_button_frame_color="frame4" pr_label_type="104" is_scroll_end_control="false" is_display_scrolling="false"
+    is_allow_drag="true"/>
+  <spot_video_display spot_id="3" aspect_ratio_id="10" width="25" height="35" is_scalable="false"
+    is_allowed_drag="false" is_rounded_rectangle="false" is_scroll_end_control="true" is_display_scrolling="true"
+    is_allow_drag="false"/>
+</dataset>

@@ -1,0 +1,3 @@
+<div class="mangaka-compass" data-mangaka-compass-spot="${spotName}">
+  <script type="text/javascript">mangakaCompass.queue.push({ "spot": "${spotName}" });</script>
+</div>

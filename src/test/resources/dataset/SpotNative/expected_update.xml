@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <spot_native spot_id="1" native_template_id="5" context_type_id="1" context_sub_type_id="1" placement_type_id="1"
+    placement_count="1" rotation_interval="1" duration_min="00:00:01" duration_max="00:00:01"/>
+  <spot_native spot_id="2" native_template_id="2" context_type_id="2" context_sub_type_id="2" placement_type_id="2"
+    placement_count="2" rotation_interval="2" duration_min="00:00:02" duration_max="00:00:02"/>
+  <spot_native spot_id="3" native_template_id="3" context_type_id="3" context_sub_type_id="3" placement_type_id="3"
+    placement_count="3" rotation_interval="3" duration_min="00:00:03" duration_max="00:00:03"/>
+</dataset>

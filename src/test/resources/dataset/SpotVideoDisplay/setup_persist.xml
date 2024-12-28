@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <spot_video_display spot_id="1" aspect_ratio_id="1" width="100" height="200" position_top="100" position_left="200"
+    is_scalable="false" is_scroll_end_control="true" is_display_scrolling="true" is_allowed_drag="true"
+    is_rounded_rectangle="false" decoration_id="1" close_button_type="1" close_button_size="20"
+    close_button_target_os="ios" close_button_line_color="rgba10" close_button_bg_color="rgba11"
+    close_button_frame_color="rgba12" pr_label_type="1" is_allow_drag="false"/>
+  <spot_video_display spot_id="1" aspect_ratio_id="2" width="300" height="400" position_bottom="300"
+    position_right="400" is_scalable="true" is_scroll_end_control="true" is_display_scrolling="true"
+    is_allowed_drag="false" is_rounded_rectangle="true" close_button_type="2" close_button_size="30"
+    close_button_line_color="rgba20" close_button_bg_color="rgba21"
+    close_button_frame_color="rgba22" pr_label_type="2" is_allow_drag="false"/>
+  <spot_video_display spot_id="1" aspect_ratio_id="3" width="110" height="210" position_top="200" position_right="400"
+    is_scalable="true" is_scroll_end_control="true" is_display_scrolling="true" is_allowed_drag="false"
+    is_rounded_rectangle="true" is_allow_drag="false"/>
+  <spot_video_display spot_id="2" aspect_ratio_id="1" width="110" height="210" position_top="200" position_right="400"
+    is_scalable="true" is_scroll_end_control="true" is_display_scrolling="true" is_allowed_drag="false"
+    is_rounded_rectangle="true" is_allow_drag="false"/>
+</dataset>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <spot_native_display spot_id="2" native_template_id="12" is_scalable="false" is_scroll_end_control="false"
+    is_display_scrolling="false" is_allowed_drag="false" is_rounded_rectangle="false"/>
+  <spot_native_display spot_id="3" native_template_id="13" is_scalable="true" is_scroll_end_control="false"
+    is_display_scrolling="true" is_allowed_drag="false" is_rounded_rectangle="true"/>
+</dataset>

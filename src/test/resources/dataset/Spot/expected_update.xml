@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <spot spot_id="1" site_id="10" spot_name="[TEXT]spot1" spot_status="active" spot_type="banner" platform_id="1"
+    display_type="inline" upstream_type="none" delivery_method="js" rotation_max="20"
+    is_amp="true" propriety_dsp_id="20" />
+  <spot spot_id="2" site_id="10" spot_name="[TEXT]spot2" spot_status="active" spot_type="banner" platform_id="2"
+    display_type="overlay" upstream_type="none" delivery_method="js" width="900" height="901" rotation_max="20" is_amp="true"
+    propriety_dsp_id="20" descriptions="[TEXT]descriptionsUpdate2" page_url="https://test.com/update/2/"/>
+  <spot spot_id="3" site_id="11" spot_name="[TEXT]_" spot_status="archive" spot_type="native" platform_id="1"
+    display_type="inline" upstream_type="prebidjs" delivery_method="sdk" width="100" height="101" rotation_max="20"
+    is_amp="false" propriety_dsp_id="21" descriptions="[TEXT]descriptions3" page_url="https://test.com/3/"/>
+</dataset>

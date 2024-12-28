@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <spot spot_id="1" site_id="30" spot_name="[TEXT]広告枠1" spot_status="active" spot_type="banner" platform_id="1"
+    display_type="inline" upstream_type="prebidjs" delivery_method="js" width="[null]" height="[null]"
+    overlay_type_id="[null]" animation_id="[null]" decoration_id="[null]" rotation_interval="[null]" scalable_flag="0"
+    rotation_max="10" amp_flag="0" is_amp="false" propriety_dsp_id="1" anonymous="off" winning_bid_weight="0.5000"
+    descriptions="[TEXT]説明1" page_url="https://test.com/1/"/>
+
+  <spot_upstream_currency spot_id="1" currency_id="41"/>
+
+  <relay_spot_sizetype spot_id="1" size_type_id="1"/>
+  <relay_spot_sizetype spot_id="1" size_type_id="2"/>
+  <relay_spot_sizetype spot_id="1" size_type_id="200"/>
+  <relay_spot_sizetype spot_id="1" size_type_id="201"/>
+  
+  <relay_spot_dsp spot_id="1" dsp_id="1" bid_adjust="0.000" priority="2" floor_cpm="0.00000000"/>
+  <relay_spot_dsp spot_id="1" dsp_id="2" bid_adjust="999.999" priority="4" floor_cpm="9999999999.99999999"/>
+  <relay_spot_dsp spot_id="1" dsp_id="3" bid_adjust="123.456" priority="1"/>
+
+  <spot_banner spot_id="1"/>
+
+  <spot_banner_display spot_id="1" position_top="[null]" position_bottom="[null]" position_left="[null]"
+    position_right="[null]" is_scalable="false" is_scroll_end_control="true" is_display_scrolling="true"
+    is_allowed_drag="false" decoration_id="[null]" is_rounded_rectangle="false" close_button_target_os="[null]"
+    close_button_type="[null]" close_button_size="[null]" close_button_line_color="[null]"
+    close_button_bg_color="[null]" close_button_frame_color="[null]" pr_label_type="[null]"/>
+</dataset>

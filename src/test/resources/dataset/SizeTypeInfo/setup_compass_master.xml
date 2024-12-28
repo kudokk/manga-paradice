@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <relay_spot_sizetype spot_id="40" size_type_id="20"/>
+  <relay_spot_sizetype spot_id="41" size_type_id="21"/>
+  <relay_spot_sizetype spot_id="42" size_type_id="22"/>
+  <relay_spot_sizetype spot_id="42" size_type_id="23"/>
+  <relay_spot_sizetype spot_id="43" size_type_id="99"/>
+
+  <spot spot_id="40" site_id="30" spot_name="_" spot_status="active" spot_type="banner" platform_id="1"
+    display_type="inline" delivery_method="js" propriety_dsp_id="1"/>
+  <spot spot_id="41" site_id="31" spot_name="_" spot_status="active" spot_type="banner" platform_id="1"
+    display_type="inline" delivery_method="js" propriety_dsp_id="1"/>
+  <spot spot_id="42" site_id="31" spot_name="_" spot_status="active" spot_type="banner" platform_id="1"
+    display_type="inline" delivery_method="js" propriety_dsp_id="1"/>
+  <spot spot_id="43" site_id="32" spot_name="_" spot_status="active" spot_type="banner" platform_id="1"
+    display_type="inline" delivery_method="js" propriety_dsp_id="1"/>
+
+  <site site_id="30" co_account_id="1" site_name="_" site_status="active" platform_id="1" site_type="pc_web"
+    site_category_id="1" url="_" payee_id="1" default_propriety_dsp_id="1"/>
+  <site site_id="31" co_account_id="1" site_name="_" site_status="active" platform_id="1" site_type="pc_web"
+    site_category_id="1" url="_" payee_id="1" default_propriety_dsp_id="1"/>
+  <site site_id="32" co_account_id="9" site_name="_" site_status="active" platform_id="1" site_type="pc_web"
+    site_category_id="1" url="_" payee_id="1" default_propriety_dsp_id="1"/>
+</dataset>

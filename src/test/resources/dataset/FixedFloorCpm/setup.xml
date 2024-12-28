@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <fixed_floor_cpm deal_id="1" floor_cpm="123.456" start_date="2024-01-01" end_date="2024-02-01"/>
+  <fixed_floor_cpm deal_id="2" floor_cpm="234.567" start_date="2024-01-02" end_date="2024-02-02"/>
+  <fixed_floor_cpm deal_id="3" floor_cpm="345.678" start_date="2024-01-03"/>
+  <fixed_floor_cpm deal_id="4" floor_cpm="456.789" start_date="2024-01-04" end_date="2024-02-04"/>
+</dataset>

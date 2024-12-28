@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <compass_campaign campaign_id="1" pureads_type="commit"/>
+
+  <compass_struct struct_id="1" delivery_type="ratio"/>
+  <compass_struct struct_id="2" delivery_type="ratio"/>
+  <compass_struct struct_id="3" delivery_type="ratio"/>
+  <compass_struct struct_id="4" delivery_type="ratio"/>
+
+  <time_targeting time_targeting_id="1" co_account_id="20" time_targeting_name="targeting1" time_targeting_status="active" country_id="1" is_active_holiday="false" description="desc1" update_time="2024-01-01 00:00:00"/>
+  <time_targeting_day_type_period time_targeting_id="1" day_type="mon" start_time="00:00:00" end_time="23:59:00" create_time="2024-01-01 00:00:00"/>
+  <time_targeting_day_type_period time_targeting_id="1" day_type="tue" start_time="00:00:00" end_time="23:59:00" create_time="2024-01-01 00:00:00"/>
+  <time_targeting_day_type_period time_targeting_id="1" day_type="wed" start_time="00:00:00" end_time="23:59:00" create_time="2024-01-01 00:00:00"/>
+</dataset>

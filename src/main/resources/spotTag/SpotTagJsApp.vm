@@ -1,0 +1,10 @@
+<div id="${encryptedSpotId}" >
+  <script type="text/javascript">
+    mangakaCompass.queue.push({
+      "spot": "${encryptedSpotId}",
+      "ifa": "${COMPASS_EXT_IFA}",
+      "appid": "${COMPASS_EXT_APPID}",
+      "geo": "${COMPASS_EXT_GEO}"
+    });
+  </script>
+</div>

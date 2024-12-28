@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <relay_struct_spot struct_id="1" spot_id="1"/>
+  <relay_struct_spot struct_id="1" spot_id="2"/>
+  <relay_struct_spot struct_id="1" spot_id="3"/>
+  <relay_struct_spot struct_id="2" spot_id="1"/>
+  <relay_struct_spot struct_id="2" spot_id="2"/>
+  <relay_struct_spot struct_id="3" spot_id="1"/>
+  <relay_struct_spot struct_id="4" spot_id="2"/>
+</dataset>

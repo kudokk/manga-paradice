@@ -1,0 +1,91 @@
+server:
+  # 旧管理画面と並行稼働で確認するためローカル環境ではポート番号は8081を使用する
+  port: ${COMPASS_MANAGER_SERVER_PORT:8081}
+  # servlet.session.timeoutに関しては、各ビルド環境サーバーに直配置しているdocker-compose.ymlの環境変数で管理している。
+spring:
+  main:
+    lazy-initialization: ${SPRING_LAZY_INITIALIZATION:true}
+  data:
+    redis:
+      host: ${SESSION_REDIS_HOST:127.0.0.1}
+      port: ${SESSION_REDIS_PORT:6379}
+    # 設定情報について開発環境構築の手順を見てください。
+    creative:
+      iv: ${COMPASS_CREATIVE_TAG_IV:compass}
+      key: ${COMPASS_CREATIVE_TAG_KEY:compass}
+    spot:
+      tag:
+        iv: ${COMPASS_SPOT_TAG_IV:compass}
+        key: ${COMPASS_SPOT_TAG_KEY:compass}
+  datasource:
+    core-master-db:
+      url: ${CORE_MASTER_DB_URL:jdbc:mysql://127.0.0.1:3307/core_master_db?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true}
+      username: ${CORE_MASTER_DB_USER:sspuser}
+      password: ${CORE_MASTER_DB_PASS:sspuser}
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    compass-master-db:
+      url: ${COMPASS_MASTER_DB_URL:jdbc:mysql://127.0.0.1:3307/compass_master_db?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true}
+      username: ${COMPASS_MASTER_DB_USER:sspuser2}
+      password: ${COMPASS_MASTER_DB_PASS:sspuser2}
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    compass-master-replica-db:
+      url: ${COMPASS_MASTER_REPLICA_DB_URL:jdbc:mysql://127.0.0.1:3307/compass_master_db?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true}
+      username: ${COMPASS_MASTER_REPLICA_DB_USER:sspuser2}
+      password: ${COMPASS_MASTER_REPLICA_DB_PASS:sspuser2}
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    compass-summary-db:
+      url: ${COMPASS_SUMMARY_DB_URL:jdbc:mysql://127.0.0.1:3307/compass_summary_db?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true}
+      username: ${COMPASS_SUMMARY_DB_USER:sspuser3}
+      password: ${COMPASS_SUMMARY_DB_PASS:sspuser3}
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    compass-log-db:
+      url: ${COMPASS_LOG_DB_URL:jdbc:mysql://127.0.0.1:3307/compass_log_db?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true}
+      username: ${COMPASS_LOG_DB_USER:sspuser}
+      password: ${COMPASS_LOG_DB_PASS:sspuser}
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  mvc:
+    throw-exception-if-no-handler-found: true
+  web:
+    resources:
+      add-mappings: false
+      chain:
+        strategy:
+          content:
+            enabled: true
+  messages:
+    basename: messages/messages
+    fallback-to-system-locale: false
+logging:
+  level:
+    root: INFO
+    org:
+      springframework.web: INFO
+      springframework.jdbc: INFO
+      springframework.jdbc.core: TRACE
+  file:
+    name: log/application.log
+app:
+  cookie:
+    domain: ${COOKIE_DOMAIN:localhost}
+  constant:
+    cipher:
+      # 設定情報について開発環境構築の手順を見てください。
+      spot:
+        tag:
+          iv: ${COMPASS_SPOT_TAG_IV:compass123456789}
+          key: ${COMPASS_SPOT_TAG_KEY:compass123456789}
+    # 一覧などのAPIから1度に取得する件数。
+    # pagination-size.default的な設定は設けず機能ごとの個別定義にし、
+    # 環境変数で特定機能の取得件数だけ変更するみたいなことができるようにしている。
+    pagination-size:
+      spots: ${SPOTS_PAGINATION_SIZE:50}
+      time-targetings: ${TIME_TARGETINGS_PAGINATION_SIZE:50}
+    localDirPath: ${COMPASS_LOCAL_DIR_PATH:} # 一時ファイル用ファイルパス、nullならプロジェクトルートのディレクトリを使用
+compass-console:
+  cors:
+    origin: ${COMPASS_CONSOLE_CORS_ORIGIN:http://localhost:8080}
+  url:
+    login: ${COMPASS_CONSOLE_URL_LOGIN:http://localhost:8080/compass_console/login}
+    logout: ${COMPASS_CONSOLE_URL_LOGOUT:http://localhost:8080/compass_console/logout}
+    csrf-token: ${COMPASS_CONSOLE_URL_CSRF_TOKEN:http://localhost:8080/compass_console/csrfToken}
+    keep-alive: ${COMPASS_CONSOLE_URL_KEEP_ALIVE:http://localhost:8080/compass_console/images/keep-alive.png}

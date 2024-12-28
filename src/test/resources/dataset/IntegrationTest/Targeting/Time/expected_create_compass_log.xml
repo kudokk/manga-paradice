@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<dataset>
+  <compass_user_operation_log ip_address="2130706433" user_id="10" co_account_id="20" exec_query="INSERT INTO time_targeting (co_account_id, time_targeting_name, time_targeting_status, country_id, is_active_holiday, description, update_time, create_time) VALUES(?, ?, ?, ?, ?, ?, ?, ?)" exec_parameters="[TEXT][20, 作成テスト, active, 2, true, タイムターゲティング作成, null, null]" soft_delete_flag="open"/>
+  <compass_user_operation_log ip_address="2130706433" user_id="10" co_account_id="20" exec_query="INSERT INTO time_targeting_day_type_period (time_targeting_id, day_type, start_time, end_time, create_time) VALUES(?, ?, ?, ?, ?)" exec_parameters="[TEXT][[2, mon, 00:00, 00:29, null], [2, tue, 00:30, 00:59, null], [2, wed, 01:00, 01:29, null], [2, thu, 01:30, 01:59, null], [2, fri, 02:00, 02:29, null], [2, sat, 02:30, 02:59, null], [2, sun, 03:00, 03:29, null], [2, hol, 03:30, 03:59, null]]" soft_delete_flag="open"/>
+  <compass_user_operation_log ip_address="2130706433" user_id="10" co_account_id="20" exec_query="UPDATE compass_struct&#10;SET time_targeting_id = ?&#10;WHERE struct_id IN (?, ?)" exec_parameters="[TEXT][2, [1, 2]]" soft_delete_flag="open"/>
+</dataset>

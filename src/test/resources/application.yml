@@ -1,0 +1,81 @@
+server:
+  # 旧管理画面と並行稼働で確認するためポート番号は8081を使用する
+  port: 8081
+spring:
+  main:
+    lazy-initialization: true
+  data:
+    redis:
+      host: 127.0.0.1
+      port: 6379
+  # sessionVariables=FOREIGN_KEY_CHECKS=0のオプションは外部キー制約を無視するためのもの
+  # DB跨ぎの外部キーが有った際にトランザクション関連のデッドロックが発生する他、テストデータ作成工数低減も考え、テストではは外部キー制約を無視する
+  datasource:
+    core-master-db:
+      url: jdbc:mysql://${DOCKER_COMPASS_MASTER_DB:127.0.0.1:3310}/core_master_db?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&nullCatalogMeansCurrent=true&sessionVariables=FOREIGN_KEY_CHECKS=0&enabledTLSProtocols=TLSv1.2
+      username: root
+      password: root
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    compass-master-db:
+      url: jdbc:mysql://${DOCKER_COMPASS_MASTER_DB:127.0.0.1:3310}/compass_master_db?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&nullCatalogMeansCurrent=true&sessionVariables=FOREIGN_KEY_CHECKS=0&enabledTLSProtocols=TLSv1.2
+      username: root
+      password: root
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    compass-master-replica-db:
+      url: jdbc:mysql://${DOCKER_COMPASS_MASTER_DB:127.0.0.1:3310}/compass_master_db?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&nullCatalogMeansCurrent=true&sessionVariables=FOREIGN_KEY_CHECKS=0&enabledTLSProtocols=TLSv1.2
+      username: root
+      password: root
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    compass-summary-db:
+      url: jdbc:mysql://${DOCKER_COMPASS_SUMMARY_DB:127.0.0.1:3312}/compass_summary_db?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&nullCatalogMeansCurrent=true&sessionVariables=FOREIGN_KEY_CHECKS=0&enabledTLSProtocols=TLSv1.2
+      username: root
+      password: root
+      driver-class-name: com.mysql.cj.jdbc.Driver
+    compass-log-db:
+      url: jdbc:mysql://${DOCKER_COMPASS_LOG_DB:127.0.0.1:3311}/compass_log_db?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&nullCatalogMeansCurrent=true&sessionVariables=FOREIGN_KEY_CHECKS=0&enabledTLSProtocols=TLSv1.2
+      username: root
+      password: root
+      driver-class-name: com.mysql.cj.jdbc.Driver
+  mvc:
+    throw-exception-if-no-handler-found: true
+  mail: # ローカルでのテスト用に設定した内容、Gmail / GSuiteユーザーにしか送信できない
+    host: aspmx.l.google.com
+    port: 25
+  servlet:
+    multipart:
+      max-file-size: 1GB
+      max-request-size: 2GB
+  web:
+    resources:
+      add-mappings: false
+      chain:
+        strategy:
+          content:
+            enabled: true
+  autoconfigure:
+    exclude: org.springframework.boot.autoconfigure.session.SessionAutoConfiguration
+  messages:
+    basename: messages/messages
+    fallback-to-system-locale: false
+logging:
+  level:
+    root: WARN
+    org:
+      springframework:
+        web: WARN
+        boot: WARN
+        test: WARN
+      dbunit: WARN
+  file:
+    name: log/application.log
+app:
+  cookie:
+    domain: ${COOKIE_DOMAIN:localhost}
+  constant:
+    # 一覧などのAPIから1度に取得する件数。
+    # pagination-size.default的な設定は設けず機能ごとの個別定義にし、
+    # 環境変数で特定機能の取得件数だけ変更するみたいなことができるようにしている。
+    pagination-size:
+      spots: ${SPOTS_PAGINATION_SIZE:50}
+      time-targetings: ${TIME_TARGETINGS_PAGINATION_SIZE:50}
+    localDirPath: ${COMPASS_LOCAL_DIR_PATH:} # 一時ファイル用ファイルパス、nullならプロジェクトルートのディレクトリを使用

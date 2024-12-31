@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dataset>
-  <relay_spot_dsp spot_id="10" dsp_id="20" bid_adjust="0.0000000" priority="0" floor_cpm="0.00000000"/>
-  <relay_spot_dsp spot_id="11" dsp_id="24" bid_adjust="0.0000000" priority="0" floor_cpm="0.00000000"/>
-
-  <!-- 更新 -->
-  <relay_spot_dsp spot_id="11" dsp_id="22" bid_adjust="123.4567890" priority="10" floor_cpm="234.5678901"/>
-  <relay_spot_dsp spot_id="11" dsp_id="23" bid_adjust="345.6789012" priority="20"/>
-</dataset>

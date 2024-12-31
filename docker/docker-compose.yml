@@ -1,6 +1,0 @@
-services:
-  session-data-redis:
-    image: redis
-    container_name: compass-manager-session-data-redis
-    ports:
-      - 6379:6379

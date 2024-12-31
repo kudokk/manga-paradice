@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dataset>
-  <campaign campaign_id="1" co_account_id="1" campaign_name="[TEXT]campaign1" campaign_status="active" soft_delete_flag="open"/>
-  <campaign campaign_id="2" co_account_id="1" campaign_name="[TEXT]campaign2" campaign_status="stop" soft_delete_flag="open"/>
-  <campaign campaign_id="3" co_account_id="2" campaign_name="[TEXT]campaign3" campaign_status="archive" soft_delete_flag="open"/>
-  <campaign campaign_id="4" co_account_id="2" campaign_name="[TEXT]campaign4" campaign_status="active" soft_delete_flag="open"/>
-  <campaign campaign_id="5" co_account_id="1" campaign_name="[TEXT]campaign5" campaign_status="active" soft_delete_flag="deleted"/>
-  <campaign campaign_id="6" co_account_id="1" campaign_name="[TEXT]campaign6" campaign_status="active" soft_delete_flag="open"/>
-</dataset>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dataset>
-  <relay_spot_sizetype spot_id="1" size_type_id="1"/>
-  <relay_spot_sizetype spot_id="1" size_type_id="2"/>
-  <relay_spot_sizetype spot_id="2" size_type_id="2"/>
-  <relay_spot_sizetype spot_id="3" size_type_id="1"/>
-  <relay_spot_sizetype spot_id="3" size_type_id="3"/>
-</dataset>

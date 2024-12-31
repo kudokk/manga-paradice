@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dataset>
-  <relay_default_co_account_dsp co_account_id="1" dsp_id="10" bid_adjust="0.000" priority="20"/>
-  <relay_default_co_account_dsp co_account_id="1" dsp_id="11" bid_adjust="123.456" priority="40"/>
-  <relay_default_co_account_dsp co_account_id="1" dsp_id="12" bid_adjust="999.999" priority="60"/>
-  <relay_default_co_account_dsp co_account_id="9" dsp_id="99" bid_adjust="999.999" priority="100"/>
-</dataset>

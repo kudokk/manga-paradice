@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dataset>
-  <currency_master
-    currency_id="1" code="[TEXT]JPY" name="_" name_en="_" name_kr="_" symbol="_" analytic_decimal_places="0"/>
-  <currency_master
-    currency_id="2" code="[TEXT]USD" name="_" name_en="_" name_kr="_" symbol="_" analytic_decimal_places="0"/>
-  <currency_master
-    currency_id="3" code="[TEXT]CNY" name="_" name_en="_" name_kr="_" symbol="_" analytic_decimal_places="0"/>
-</dataset>

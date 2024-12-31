@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dataset>
-  <aspect_ratio aspect_ratio_id="1" width="16" height="9" aspect_ratio_status="active"/>
-  <aspect_ratio aspect_ratio_id="2" width="9" height="16" aspect_ratio_status="active"/>
-  <aspect_ratio aspect_ratio_id="3" width="16" height="5" aspect_ratio_status="active"/>
-  <aspect_ratio aspect_ratio_id="4" width="32" height="5" aspect_ratio_status="stop"/>
-  <aspect_ratio aspect_ratio_id="5" width="1" height="1" aspect_ratio_status="stop"/>
-</dataset>

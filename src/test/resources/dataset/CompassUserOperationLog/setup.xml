@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dataset>
-  <compass_user_operation_log ip_address="10" user_id="20" co_account_id="30" exec_query="query1"
-    exec_parameters="[TEXT]param1" soft_delete_flag="open"/>
-</dataset>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dataset>
-  <time_targeting time_targeting_id="1" co_account_id="10" time_targeting_name="timeTargeting1"
-    time_targeting_status="active" country_id="20" is_active_holiday="true" description="desc1"
-    update_time="2024-02-01 00:00:00"/>
-  <time_targeting time_targeting_id="2" co_account_id="10" time_targeting_name="timeTargeting2"
-    time_targeting_status="archive" country_id="20" is_active_holiday="false" update_time="2024-02-02 00:00:00"/>
-</dataset>

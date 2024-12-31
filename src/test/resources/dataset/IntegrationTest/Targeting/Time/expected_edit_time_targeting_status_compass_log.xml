@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dataset>
-  <compass_user_operation_log ip_address="2130706433" user_id="10" co_account_id="20" exec_query="UPDATE time_targeting&#10;SET time_targeting_status = ?&#10;WHERE time_targeting_id = ?" exec_parameters="[TEXT][archive, 1]" soft_delete_flag="open"/>
-</dataset>

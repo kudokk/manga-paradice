@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dataset>
-  <spot_upstream_currency spot_id="10" currency_id="20"/>
-
-  <!-- 新規レコード -->
-  <spot_upstream_currency spot_id="11" currency_id="21"/>
-</dataset>

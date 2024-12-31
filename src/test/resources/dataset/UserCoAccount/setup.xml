@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dataset>
-  <user_co_account user_id="1" co_account_id="0" product_id="2" role_id="1"/>
-  <user_co_account user_id="1" co_account_id="1" product_id="2" role_id="2"/>
-  <user_co_account user_id="1" co_account_id="2" product_id="2" role_id="3"/>
-  <user_co_account user_id="1" co_account_id="3" product_id="99" role_id="4"/>
-  <user_co_account user_id="2" co_account_id="4" product_id="2" role_id="5"/>
-</dataset>

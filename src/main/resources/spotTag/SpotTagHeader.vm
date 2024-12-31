@@ -1,5 +1,0 @@
-<script type="text/javascript">
-  var mangakaCompass = mangakaCompass || {};
-  mangakaCompass.queue = mangakaCompass.queue || [];
-</script>
-<script type="text/javascript" charset="UTF-8" src="//j.mangaka.net/js/compass.js" onload="new mangakaCompass.AdInitializer().initialize();" async></script>

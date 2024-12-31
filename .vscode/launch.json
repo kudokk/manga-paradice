@@ -1,0 +1,12 @@
+{
+    "configurations": [
+        {
+            "type": "kotlin",
+            "name": "Spring Boot-App<manga-paradice>",
+            "request": "launch",
+            "projectRoot": "${workspaceFolder}",
+            "mainClass": "com.manga.paradice.App.kt",
+            "preLaunchTask": "build",
+        }
+    ]
+}

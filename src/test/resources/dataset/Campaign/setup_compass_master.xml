@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dataset>
-  <compass_campaign campaign_id="1" pureads_type="commit"/>
-  <compass_campaign campaign_id="2" pureads_type="bid"/>
-  <compass_campaign campaign_id="3" pureads_type="filler"/>
-  <compass_campaign campaign_id="4" pureads_type="commit"/>
-  <compass_campaign campaign_id="5" pureads_type="filler"/>
-</dataset>

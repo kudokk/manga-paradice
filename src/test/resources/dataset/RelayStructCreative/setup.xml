@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<dataset>
-  <relay_struct_creative struct_id="1" creative_id="1" creative_sub_id="0" delivery_weight="10"/>
-  <relay_struct_creative struct_id="2" creative_id="1" creative_sub_id="0" delivery_weight="20"/>
-  <relay_struct_creative struct_id="2" creative_id="2" creative_sub_id="0" delivery_weight="30"/>
-  <relay_struct_creative struct_id="3" creative_id="2" creative_sub_id="0" delivery_weight="40"/>
-  <relay_struct_creative struct_id="3" creative_id="3" creative_sub_id="0" delivery_weight="50"/>
-</dataset>

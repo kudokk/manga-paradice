@@ -18,6 +18,8 @@ spring:
         strategy:
           content:
             enabled: true
+  thymeleaf:
+    cache: false
   messages:
     basename: messages/messages
     fallback-to-system-locale: false

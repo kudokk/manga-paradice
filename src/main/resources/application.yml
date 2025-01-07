@@ -7,7 +7,7 @@ spring:
     lazy-initialization: ${SPRING_LAZY_INITIALIZATION:true}
   datasource:
     core-master-db:
-      url: mysql://127.0.0.1:3306/core-master-db?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
+      url: jdbc:mysql://127.0.0.1:3306/core-master-db?useUnicode=true&characterEncoding=UTF-8&autoReconnect=true
       username: root
       password: root
       driver-class-name: com.mysql.cj.jdbc.Driver
@@ -25,10 +25,10 @@ spring:
     fallback-to-system-locale: false
 logging:
   level:
-    root: INFO
+    root: TRACE
     org:
-      springframework.web: INFO
-      springframework.jdbc: INFO
+      springframework.web: TRACE
+      springframework.jdbc: TRACE
       springframework.jdbc.core: TRACE
   file:
     name: log/application.log

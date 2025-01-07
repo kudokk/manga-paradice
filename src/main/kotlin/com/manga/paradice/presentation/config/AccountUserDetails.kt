@@ -8,8 +8,8 @@ class AccountUserDetails(
     val user: UserMaster,
     authorities: List<GrantedAuthority>
 ) : User(
-    user.secUserMailAddress,
-    user.secUserPassword,
+    user.secMailAddress,
+    user.secPassword,
     true,
     true,
     true,

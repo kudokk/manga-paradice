@@ -10,6 +10,17 @@ import org.springframework.stereotype.Repository
 class UserMasterDaoImpl(
     @Autowired @Qualifier("CoreMasterJdbc") private val jdbcWrapper: JdbcWrapper
 ) : UserMasterDao {
+    override fun inert(userMaster: UserMasterInsert): Int = jdbcWrapper.insertExecuteAndReturnId(
+        """
+            INSERT INTO user_master (
+                sec_mail_address, sec_password, sec_user_name, user_type 
+            ) VALUES (
+                :secMailAddress, :secPassword, :secUserName, :userType
+            )
+        """.trimIndent(),
+        userMaster
+    ).toInt()
+
     override fun selectByMailAddress(mailAddress: String): UserMaster? =
         jdbcWrapper.queryForObject(
             """

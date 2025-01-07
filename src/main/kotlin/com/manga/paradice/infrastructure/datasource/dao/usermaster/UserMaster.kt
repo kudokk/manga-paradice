@@ -5,22 +5,15 @@ import java.time.LocalDateTime
 
 data class UserMaster(
     val userId: Int,
-    val countryId: Int,
-    val userClass: UserClass,
-    val secUserMailAddress: String,
-    val secUserPassword: String,
+    val secMailAddress: String,
+    val secPassword: String,
     val secUserName: String,
-    val reminderurl: String?,
     val userType: UserType,
-    val remarks: String?,
+    val reminderUrl: String?,
     val softDeleteFlag: SoftDeleteFlag,
     val updateTime: LocalDateTime,
     val createTime: LocalDateTime
 ) : Serializable {
-    enum class UserClass {
-        co_account, master
-    }
-
     enum class UserType {
         admin, general, client;
 
@@ -31,6 +24,6 @@ data class UserMaster(
     }
 
     enum class SoftDeleteFlag {
-        open
+        open, deleted
     }
 }

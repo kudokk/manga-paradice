@@ -7,7 +7,10 @@ import org.springframework.security.config.annotation.web.builders.HttpSecurity
 import org.springframework.security.config.annotation.web.builders.WebSecurity
 import org.springframework.security.config.annotation.web.configuration.EnableWebSecurity
 import org.springframework.security.config.annotation.web.configuration.WebSecurityCustomizer
+import org.springframework.security.config.annotation.web.configurers.AbstractHttpConfigurer
 import org.springframework.security.web.SecurityFilterChain
+import org.springframework.security.web.csrf.CookieCsrfTokenRepository
+import org.springframework.security.web.csrf.CsrfTokenRequestAttributeHandler
 import org.springframework.security.web.session.ForceEagerSessionCreationFilter
 import org.springframework.web.filter.ForwardedHeaderFilter
 
@@ -23,6 +26,12 @@ class SecurityConfig(
         httpSecurity.authorizeHttpRequests {
             it
                 .anyRequest().permitAll()
+        }
+        
+        httpSecurity.csrf { 
+            it
+                .csrfTokenRepository(CookieCsrfTokenRepository.withHttpOnlyFalse())
+                .csrfTokenRequestHandler(CsrfTokenRequestAttributeHandler())
         }
 
 //        // ログイン設定
